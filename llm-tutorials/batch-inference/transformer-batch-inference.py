@@ -1,4 +1,13 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# base_environment = "workspace-base-environments/dbe_65ad7304-6f87-4e25-b52c-f1cd39071e89"
+# environment_version = "4"
+# dependencies = [
+#   "test1",
+#   "-r requirements.txt",
+# ]
+# ///
 # MAGIC %md
 # MAGIC # Transformer Based Batch Inference
 # MAGIC
@@ -12,6 +21,7 @@
 # COMMAND ----------
 
 test 123 
+
 
 # COMMAND ----------
 
