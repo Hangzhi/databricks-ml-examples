@@ -21,6 +21,10 @@
 
 # COMMAND ----------
 
+test
+
+# COMMAND ----------
+
 !pip install -q --upgrade transformers
 !pip install -q --upgrade accelerate
 dbutils.library.restartPython()
