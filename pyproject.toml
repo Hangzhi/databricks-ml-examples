@@ -1,0 +1,12 @@
+[project]
+name = "my-project"         # created by default
+version = "0.1.0"           # created by default
+dependencies = [
+    "xgboost"               # added by user
+]
+
+[tool.databricks.environment]
+environment_version = "4"
+dependencies = [
+    "cowsay"
+]

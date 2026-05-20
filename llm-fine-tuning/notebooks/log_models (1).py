@@ -1,4 +1,12 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "3"
+# dependencies = [
+#   "test",
+#   "simplejson",
+# ]
+# ///
 
 
 # COMMAND ----------
